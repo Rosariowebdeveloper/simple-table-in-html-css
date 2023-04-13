@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--created by kalidhas (rosario_web_developer)-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+
+  <!--This is for style section start-->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+    }
+
+    .modul {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, #99e34e, #b6c721);
+    }
+
+    table {
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 300px;
+      background: linear-gradient(45deg, #e27afe, #f0ee4f);
+      border-radius: 25px;
+    }
+  </style>
+  <!--style section end-->
+
+</head>
+
+<!--body section start-->
+
+<body>
+  <div class="modul">
+
+    <!--table section start-->
+    <table>
+      <thead style="text-transform: uppercase;
+     ;
+      font-size: 35px;
+    ">
+        <tr>
+
+          <th colspan="4">z-box</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>yesterday</td>
+          <td>today</td>
+          <td>last month</td>
+          <td>last year</td>
+        </tr>
+        <tr>
+          <td>1500</td>
+          <td>3000</td>
+          <td>900,000</td>
+          <td>8330,000</td>
+        </tr>
+        <tr>
+          <td rowspan="2">1500</td>
+          <td>3000</td>
+          <td>900,000</td>
+          <td>8330,000</td>
+        </tr>
+        <tr>
+
+          <td>3000</td>
+          <td>900,000</td>
+          <td>8330,000</td>
+        </tr>
+        <tr>
+          <td>1500</td>
+          <td>3000</td>
+          <td>900,000</td>
+          <td>8330,000</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="4">please to check this</th>
+        </tr>
+      </tfoot>
+
+    </table>
+    <!--table section end-->
+  </div>
+
+</body>
+<!--body section end-->
+
+</html>
